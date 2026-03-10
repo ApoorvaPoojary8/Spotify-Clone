@@ -26,10 +26,11 @@ This project recreates the **modern dark-themed Spotify interface** with artist 
 ---
 
 ## 📂 Project Structure
-spotify-clone
+spotify-clone/
 │
 ├── assets/ # Images (artists, albums, covers)
 ├── index.html # Main HTML structure
 ├── style.css # Styling and layout
 ├── script.js # JavaScript functionality
 └── README.md # Project documentation
+
