@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="container">
+        
+        <aside class="sidebar">
+            <div class="logo">
+                <i class="fa-brands fa-spotify"></i> Spotify
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li class="active"><i class="fa-solid fa-house"></i> Home</li>
+                    <li><i class="fa-solid fa-magnifying-glass"></i> Search</li>
+                    <li><i class="fa-solid fa-book"></i> Your Library</li>
+                </ul>
+            </nav>
+            <div class="playlists">
+                <p>Create Playlist</p>
+                <p>Liked Songs</p>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <header class="topbar">
+                <div class="nav-arrows">
+                    <i class="fa-solid fa-chevron-left"></i>
+                    <i class="fa-solid fa-chevron-right"></i>
+                </div>
+                <div class="user-profile">
+                    <i class="fa-regular fa-user"></i> Profile
+                </div>
+            </header>
+
+            <section class="content-section">
+                <h2>Recently Played</h2>
+                <div class="cards-container">
+                    
+                    <div class="card">
+                        <img src="https://picsum.photos/id/103/200/200" alt="Album Cover">
+                        <button class="play-btn"><i class="fa-solid fa-play"></i></button>
+                        <h3>Chill Vibes</h3>
+                        <p>Relaxing acoustic and ambient music.</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="https://picsum.photos/id/203/200/200" alt="Album Cover">
+                        <button class="play-btn"><i class="fa-solid fa-play"></i></button>
+                        <h3>Daily Mix 1</h3>
+                        <p>Made for you based on your recent listening.</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="https://picsum.photos/id/304/200/200" alt="Album Cover">
+                        <button class="play-btn"><i class="fa-solid fa-play"></i></button>
+                        <h3>Top Hits</h3>
+                        <p>The biggest tracks in the world right now.</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="https://picsum.photos/id/450/200/200" alt="Album Cover">
+                        <button class="play-btn"><i class="fa-solid fa-play"></i></button>
+                        <h3>Lo-Fi Beats</h3>
+                        <p>Beats to relax, study, and focus to.</p>
+                    </div>
+
+                     <div class="card">
+                        <img src="https://picsum.photos/id/33/200/200" alt="Album Cover">
+                        <button class="play-btn"><i class="fa-solid fa-play"></i></button>
+                        <h3>Jazz Classics</h3>
+                        <p>The best jazz tracks from the golden era.</p>
+                    </div>
+
+                </div>
+            </section>
+
+          <section class="content-section" style="margin-top: 40px;">
+    <div class="section-header">
+        <h2>Popular Artists</h2>
+        <p class="show-all">Show all</p>
+    </div>
+    <div class="cards-container">
+        
+        <div class="artist-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS26JjKIppxM2Cnke_wcLZvujUDFZOkWFoJqA&s" alt="Vijay Prakash">
+            <button class="play-btn"><i class="fa-solid fa-play"></i></button>
+            <h3>Vijay Prakash</h3>
+            <p>Artist</p>
+        </div>
+
+        <div class="artist-card">
+            <img src="https://m.media-amazon.com/images/I/61hSmslpkjL._AC_UF894,1000_QL80_.jpg" alt="A.R. Rahman">
+            <button class="play-btn"><i class="fa-solid fa-play"></i></button>
+            <h3>A.R. Rahman</h3>
+            <p>Artist</p>
+        </div>
+
+        <div class="artist-card">
+            <img src="https://img.indiaforums.com/person/480x360/0/2135-vishal-dadlani.webp?c=0gCA68" alt="Vishal-Shekhar">
+            <button class="play-btn"><i class="fa-solid fa-play"></i></button>
+            <h3>Vishal-Shekhar</h3>
+            <p>Artist</p>
+        </div>
+
+        <div class="artist-card">
+            <img src="https://static.toiimg.com/thumb/msid-123386076,imgsize-203340,width-400,resizemode-4/123386076.jpg" alt="Raghu Dixit">
+            <button class="play-btn"><i class="fa-solid fa-play"></i></button>
+            <h3>Raghu Dixit</h3>
+            <p>Artist</p>
+        </div>
+
+        <div class="artist-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJqa_X6ZsTZXRRRyFyyGVAXxVZ_eePjHd1Ag&s" alt="Armaan Malik">
+            <button class="play-btn"><i class="fa-solid fa-play"></i></button>
+            <h3>Armaan Malik</h3>
+            <p>Artist</p>
+        </div>
+
+        <div class="artist-card">
+            <img src="https://www.bollywoodhungama.com/wp-content/uploads/2025/05/WhatsApp-Image-2025-05-24-at-4.43.34-PM.jpeg" alt="Shreya Ghoshal">
+            <button class="play-btn"><i class="fa-solid fa-play"></i></button>
+            <h3>Shreya Ghoshal</h3>
+            <p>Artist</p>
+        </div>
+
+    </div>
+</section>
+
+<section class="content-section">
+    <div class="section-header">
+        <h2>Popular albums and singles</h2>
+        <p class="show-all">Show all</p>
+    </div>
+    <div class="six-card-grid">
+        
+        <div class="card">
+            <img src="assets/Aashiqui 2.png" alt="Aashiqui 2">
+            <button class="play-btn"><i class="fa-solid fa-play"></i></button>
+            <h3>Aashiqui 2</h3>
+            <p>Mithoon, Ankit Tiwari, Jeet Gannguli</p>
+        </div>
+
+        <div class="card">
+            <img src="assets/Yeh Jawaani Hai Deewani.png" alt="YJHD">
+            <button class="play-btn"><i class="fa-solid fa-play"></i></button>
+            <h3>Yeh Jawaani Hai Deewani</h3>
+            <p>Pritam</p>
+        </div>
+
+        <div class="card">
+            <img src="assets/Sanam Teri Kasam.png" alt="Sanam Teri Kasam">
+            <button class="play-btn"><i class="fa-solid fa-play"></i></button>
+            <h3>Sanam Teri Kasam (Original Motion...</h3>
+            <p>Himesh Reshammiya, Sameer Anjaan, Subrat...</p>
+        </div>
+
+        <div class="card">
+            <img src="assets/Finding Her.png" alt="Finding Her">
+            <button class="play-btn"><i class="fa-solid fa-play"></i></button>
+            <h3>Finding Her</h3>
+            <p>Kushagra, Bharath, Saaheal</p>
+        </div>
+
+        <div class="card">
+            <img src="assets/Young G.O.A.T.png" alt="Young G.O.A.T">
+            <button class="play-btn"><i class="fa-solid fa-play"></i></button>
+            <h3>Young G.O.A.T</h3>
+            <p>Cheema Y, Gur Sidhu</p>
+        </div>
+
+        <div class="card">
+            <img src="assets/Raanjhan.png" alt="Raanjhan">
+            <button class="play-btn"><i class="fa-solid fa-play"></i></button>
+            <h3>Raanjhan (From "Do Patti")</h3>
+            <p>Sachet-Parampara, Parampara Tandon...</p>
+        </div>
+
+    </div>
+</section>
+
+
+        <footer class="music-player">
+            <div class="now-playing">
+                <img src="https://picsum.photos/id/103/60/60" alt="Current Track">
+                <div class="track-info">
+                    <h4>Acoustic Breeze</h4>
+                    <p>John Doe</p>
+                </div>
+                <i class="fa-regular fa-heart"></i>
+            </div>
+
+            <div class="player-controls">
+                <div class="control-buttons">
+                    <i class="fa-solid fa-shuffle"></i>
+                    <i class="fa-solid fa-backward-step"></i>
+                    <i class="fa-solid fa-circle-play play-icon"></i>
+                    <i class="fa-solid fa-forward-step"></i>
+                    <i class="fa-solid fa-repeat"></i>
+                </div>
+                <div class="playback-bar">
+                    <span class="time">1:24</span>
+                    <div class="progress-bar">
+                        <div class="progress"></div>
+                    </div>
+                    <span class="time">3:45</span>
+                </div>
+            </div>
+
+            <div class="volume-controls">
+                <i class="fa-solid fa-microphone"></i>
+                <i class="fa-solid fa-list-ul"></i>
+                <i class="fa-solid fa-volume-high"></i>
+                <div class="progress-bar volume-bar">
+                    <div class="progress"></div>
+                </div>
+            </div>
+        </footer>
+
+        <footer class="main-footer">
+    <div class="footer-links">
+        <div class="footer-column">
+            <h4>Company</h4>
+            <ul>
+                <li>About</li>
+                <li>Jobs</li>
+                <li>For the Record</li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h4>Communities</h4>
+            <ul>
+                <li>For Artists</li>
+                <li>Developers</li>
+                <li>Advertising</li>
+                <li>Investors</li>
+                <li>Vendors</li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h4>Useful links</h4>
+            <ul>
+                <li>Support</li>
+                <li>Free Mobile App</li>
+            </ul>
+        </div>
+        <div class="footer-socials">
+            <div class="social-icon"><i class="fa-brands fa-instagram"></i></div>
+            <div class="social-icon"><i class="fa-brands fa-twitter"></i></div>
+            <div class="social-icon"><i class="fa-brands fa-facebook"></i></div>
+        </div>
+    </div>
+
+    <hr class="footer-divider">
+
+    <div class="footer-copyright">
+        <p>&copy; 2026 Spotify AB. All rights reserved.</p>
+    </div>
+</footer>
+
+    </div>
+</body>
+</html>
